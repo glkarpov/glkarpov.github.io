@@ -35,4 +35,4 @@ compress_html:
   # ignore:
   #   envs: all
 
-theme: jekyll-theme-cayman
+theme: jekflix
