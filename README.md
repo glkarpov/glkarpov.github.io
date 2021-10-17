@@ -4,12 +4,18 @@ permalink: /
 nav_order: 1
 ---
 
-# Probability theory and Statistics. HSE MDI 2021
+# Probability theory and Statistics. HSE MDI
 
+![](/images/frog_open.png)
+
+
+![](/images/frog_course.png)
 * [🚀 Statistics course program](/program)
+
+![](/images/frog_hw.png)
 * [💀 Home assignments](/homework)
 
-![](./frog_1.png)
 
-![](./frog_2.png)
+
+![](/images/frog_close.png)
 
