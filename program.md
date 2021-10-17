@@ -18,7 +18,7 @@ Joint distributions 1.
 
 ## Lesson 4.
 
- [Materials](/presentations/sem4.pdf).[Notes](/presentations/sem4_whiteboard.pdf). [Video](https://drive.google.com/file/d/189LLtLiXJNEt198DJuZuxVOAsp2cXugH/view?usp=sharing).
+ [Materials](/presentations/sem4.pdf).[Notes](/notes/sem4_whiteboard.pdf). [Video](https://drive.google.com/file/d/189LLtLiXJNEt198DJuZuxVOAsp2cXugH/view?usp=sharing).
 
 Joint distributions 2
 

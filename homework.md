@@ -1,5 +1,5 @@
 ---
-title: 💀 Домашка
+title: 💀 Home assignments
 nav_order: 3
 ---
 
