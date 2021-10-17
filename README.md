@@ -13,6 +13,9 @@ nav_order: 1
 ![](/images/frog_hw.png)
 * [💀 Home assignments](/homework)
 
+![](/images/frog_think.png)
+* [Useful links](/links)
+
 
 
 ![](/images/frog_close.png)
