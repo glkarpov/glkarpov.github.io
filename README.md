@@ -9,7 +9,7 @@ nav_order: 1
 * [🚀 Statistics course program](/program)
 * [💀 Home assignments](/homework)
 
-![](/home/glebsg/Documents/HSE/hse21/frog_1.png)
+![](./frog_1.png)
 
-![](/home/glebsg/Documents/HSE/hse21/frog_2.png)
+![](./frog_2.png)
 
