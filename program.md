@@ -18,7 +18,7 @@ Joint distributions 1.
 
 ## Seminar 4.
 
- [Materials](/presentations/sem4.pdf).[Notes](/notes/sem4_whiteboard.pdf). [Video](https://drive.google.com/file/d/189LLtLiXJNEt198DJuZuxVOAsp2cXugH/view?usp=sharing).
+ [Materials](/presentations/sem4.pdf). [Notes](/notes/sem4_whiteboard.pdf). [Video](https://drive.google.com/file/d/189LLtLiXJNEt198DJuZuxVOAsp2cXugH/view?usp=sharing).
 
 Joint distributions 2
 
@@ -27,7 +27,7 @@ Joint distributions 2
 
 Inferential statistics. Introduction, motivation, main problem types. Sampling distributions. Point estimators, their efficiency. Mean squared error.
 
-[Materials](/presentations/sem6.pdf). [Annotated materials](/notes/sem6_annotated.pdf) [Notes](/notes/sem6_whiteboard.pdf). [Video](https://drive.google.com/file/d/16mi3FQPmx8Wb3yqqBn1HJfYI_qQmoC7e/view?usp=sharing).
+[Materials](/presentations/sem6.pdf). [Annotated materials](/notes/sem6_annotated.pdf). [Notes](/notes/sem6_whiteboard.pdf). [Video](https://drive.google.com/file/d/16mi3FQPmx8Wb3yqqBn1HJfYI_qQmoC7e/view?usp=sharing).
 
 
 
@@ -35,7 +35,7 @@ Inferential statistics. Introduction, motivation, main problem types. Sampling d
 
 Confidence intervals. Introduction. CLT. CI for proportions.
 
-[Materials](/presentations/sem8.pdf). [Annotated materials](/notes/sem8_annotated.pdf) [Notes](/notes/sem8_whiteboard.pdf). [Video](https://drive.google.com/file/d/1N_g3oOlB4g9voPPDmDduFIVct8721Eeh/view?usp=sharing).
+[Materials](/presentations/sem8.pdf). [Annotated materials](/notes/sem8_annotated.pdf). [Notes](/notes/sem8_whiteboard.pdf). [Video](https://drive.google.com/file/d/1N_g3oOlB4g9voPPDmDduFIVct8721Eeh/view?usp=sharing).
 
 
 ## Seminar 8.
