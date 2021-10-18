@@ -18,5 +18,5 @@ nav_order: 5
 
     Note that in the subtopic "Comparing Two Means" there is given the most complicated case, when we do not know variances $\sigma_1^2$ and $\sigma_2^2$ of two populations, moreover they may not be equal to each other. We didn't cover this case, and it's better here to follow our materials.
 
-3. [Nice introductory coverage of hypothesis testing](./documents/Hypothesis_Testing_external_materiall.pdf), which can help you to look at the HT from slightly another position of the different author.
+3. [Nice introductory coverage of hypothesis testing](./documents/Hypothesis_Testing_external_material.pdf), which can help you to look at the HT from slightly another position of the different author.
 	Please, also note here, that there is not full coverage of the subtopic "Tests on Differences of Population Means". It is better here, as well, to follow our materials.
