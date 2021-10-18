@@ -1,6 +1,6 @@
 title: "Probability Theory and Statistics. MDI."
 baseurl: ""
-url: "https://glkarpov.github.io/"
+url: "https://glkarpov.github.io"
 search_enabled: false
 
 # Enable or disable heading anchors
@@ -35,4 +35,4 @@ compress_html:
   # ignore:
   #   envs: all
 
-theme: jekflix
+theme: jekyll-theme-cayman
