@@ -1,4 +1,9 @@
-# Numerical examples with Python
+---
+title: 🐍 Numerical examples
+nav_order: 4
+---
+
+# Numerical examples
 
 ## Central Limit Theorem visualization
 

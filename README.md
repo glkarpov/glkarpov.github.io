@@ -17,7 +17,6 @@ nav_order: 1
 ![](./images/frog_code.png)
 * [🐍 Numerical examples](/numerical)
 
-
 ![](./images/frog_think.png)
 * [🔧 Useful links](/links)
 
