@@ -14,9 +14,8 @@ nav_order: 1
 ![](./images/frog_hw.png)
 * [💀 Home assignments](/homework)
 
-
 ![](./images/frog_code.png)
-*[🐍 Numerical examples](/numerical)
+* [🐍 Numerical examples](/numerical)
 
 
 ![](./images/frog_think.png)
