@@ -5,7 +5,7 @@ nav_order: 1
 ---
 
 ![](/images/frog_open.png)
-# Probability theory and Statistics. HSE MDI
+# Probability Theory and Statistics. HSE MDI.
 
 ![](./images/frog_course.png)
 * [🚀 Statistics course program](/program)
