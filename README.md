@@ -1,5 +1,5 @@
 ---
-title: 🏡 Главная
+title: 🏡 Home page
 permalink: /
 nav_order: 1
 ---
