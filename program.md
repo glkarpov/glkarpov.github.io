@@ -55,3 +55,9 @@ Materials are below for the Seminar 10.
 Hypothesis testing: two sample, known and unknown population variances.
 
 [Materials](/presentations/sem9-10_HT.pdf). [Notes](/notes/sem10_whiteboard_problems.pdf). [Video](https://drive.google.com/file/d/1hLx59WyavnxVGFw9bNvbfPVJw8gq9ZZx/view?usp=sharing).
+
+## Exam consultation 1.
+
+We covered all problems in [demo variant](/documents/demo_exam_2021.pdf) up to Hypothesis Testing in the free response section.
+
+[Notes](/notes/consultation_vol1_whiteboard.pdf). [Video](https://drive.google.com/file/d/1joLSITSpIquvV_xylTnm52N__TucHuNh/view?usp=sharing).
