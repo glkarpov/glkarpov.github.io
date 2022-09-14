@@ -2,7 +2,7 @@
 title: 🚀 Statistics course program
 parent: Probability Theory and Statistics 2021
 ---
-# Statistics course program
+# Statistics '21 course program
 
 ## Seminar 1.
 

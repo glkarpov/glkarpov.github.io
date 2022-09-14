@@ -1,5 +1,5 @@
 ---
-title: Course program
+title: Mathematical Statistics course program 📊🎲
 parent: Probability Theory and Statistics 2022
 ---
 

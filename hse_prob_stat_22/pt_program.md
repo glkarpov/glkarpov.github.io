@@ -1,8 +1,8 @@
 ---
-title: 🚀 Statistics course program
+title: Probability Theory course program 🎰
 parent: Probability Theory and Statistics 2022
 ---
-# Statistics course program
+# Probability Theory '22 course program
 
 ## Seminar 1.
 
