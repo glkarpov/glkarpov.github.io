@@ -1,6 +1,7 @@
 ---
 title: Statistics '22 course program
 ---
+
 # Statistics course program
 
 ## Seminar 1.

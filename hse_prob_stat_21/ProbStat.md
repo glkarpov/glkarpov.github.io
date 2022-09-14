@@ -1,5 +1,5 @@
 ---
-title: Probability Theory and Statistics
+title: Probability Theory and Statistics 2021
 nav_order: 2
 ---
 

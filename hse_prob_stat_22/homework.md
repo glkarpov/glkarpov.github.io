@@ -1,5 +1,5 @@
 ---
-title: 💀 Home assignments
+title: Home assignments
 ---
 
 # Home assignment on Hypothesis Testing.

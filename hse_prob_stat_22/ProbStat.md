@@ -7,12 +7,5 @@ nav_order: 1
 ### HSE MDI, Spring --- Autumn 2022.
 
 * [🚀 Statistics course program](./program)
-
-
-<!-- ![](../images/frog_hw.png) -->
-* <!-- [💀 Home assignments](/hse_prob_stat//homework) --> 
-
-<!--  * [🐍 Numerical examples](/hse_prob_stat//numerical) -->
-
 * [🔧 Useful links](/hse_prob_stat_shared/links)
 
