@@ -1,6 +1,8 @@
 ---
 title: Probability Theory and Statistics 2021
 nav_order: 2
+has_children: true
+has_toc: false
 ---
 
 ![](../images/frog_open.png)
