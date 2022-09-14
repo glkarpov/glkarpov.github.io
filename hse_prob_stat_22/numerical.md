@@ -1,6 +1,5 @@
 ---
 title: 🐍 Numerical examples
-nav_order: 4
 ---
 
 # Numerical examples
