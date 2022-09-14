@@ -11,7 +11,7 @@ has_toc: false
 ### HSE MDI, Autumn 2021.
 
 ![](../images/frog_course.png)
-* [🚀 Statistics course program](/hse_prob_stat/program)
+* [🚀 Statistics course program](/hse_prob_stat_21/program)
 
 
 <!-- ![](../images/frog_hw.png) -->
