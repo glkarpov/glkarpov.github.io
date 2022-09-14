@@ -1,6 +1,6 @@
 ---
 title: 🚀 Statistics course program
-parent: prob_stat_21
+parent: Probability Theory and Statistics 2021
 ---
 # Statistics course program
 
