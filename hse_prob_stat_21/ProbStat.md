@@ -1,19 +1,19 @@
 ---
 title: Probability Theory and Statistics
+nav_order: 2
 ---
 
 ![](../images/frog_open.png)
-# HSE MDI.
 
 # Probability Theory and Statistics. 
-### Autumn 2021 - Spring 2022
+### HSE MDI, Autumn 2021.
 
 ![](../images/frog_course.png)
 * [🚀 Statistics course program](/hse_prob_stat/program)
 
 
-![](../images/frog_hw.png)
-* [💀 Home assignments](/hse_prob_stat//homework)
+<!-- ![](../images/frog_hw.png) -->
+* <!-- [💀 Home assignments](/hse_prob_stat//homework) --> 
 
 ![](../images/frog_code.png)
 * [🐍 Numerical examples](/hse_prob_stat//numerical)

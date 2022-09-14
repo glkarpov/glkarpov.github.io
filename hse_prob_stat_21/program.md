@@ -1,6 +1,5 @@
 ---
 title: 🚀 Statistics course program
-nav_order: 2
 ---
 # Statistics course program
 

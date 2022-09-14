@@ -1,6 +1,5 @@
 ---
 title: 🔧 Useful links
-nav_order: 5
 ---
 
 # Useful links and materials
