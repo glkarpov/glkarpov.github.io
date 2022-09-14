@@ -1,6 +1,5 @@
 ---
 title: 💀 Home assignments
-nav_order: 3
 ---
 
 # Home assignment on Hypothesis Testing.

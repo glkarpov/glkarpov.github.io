@@ -1,10 +1,9 @@
 ---
 title: 🐍 Numerical examples
-nav_order: 4
 ---
 
 # Numerical examples
 
-## Central Limit Theorem visualization
+## Central Limit Theorem visualisation
 
 - [Python run file](/notebooks/clt_example.py)

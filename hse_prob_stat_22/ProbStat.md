@@ -1,5 +1,6 @@
 ---
 title: Probability Theory and Statistics 2022
+nav_order: 1
 ---
 # Probability Theory and Statistics. 
 
@@ -11,7 +12,7 @@ title: Probability Theory and Statistics 2022
 <!-- ![](../images/frog_hw.png) -->
 * <!-- [💀 Home assignments](/hse_prob_stat//homework) --> 
 
-<!-- * [🐍 Numerical examples](/hse_prob_stat//numerical)
+<!--  * [🐍 Numerical examples](/hse_prob_stat//numerical) -->
 
-* [🔧 Useful links](/hse_prob_stat//links) -->
+* [🔧 Useful links](/hse_prob_stat_shared/links)
 

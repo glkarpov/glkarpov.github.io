@@ -16,10 +16,10 @@ nav_order: 2
 * <!-- [💀 Home assignments](/hse_prob_stat//homework) --> 
 
 ![](../images/frog_code.png)
-* [🐍 Numerical examples](/hse_prob_stat//numerical)
+* [🐍 Numerical examples](/hse_prob_stat_shared/numerical)
 
 ![](../images/frog_think.png)
-* [🔧 Useful links](/hse_prob_stat//links)
+* [🔧 Useful links](/hse_prob_stat_shared/links)
 
 ---
 ![](../images/frog_close.png)
