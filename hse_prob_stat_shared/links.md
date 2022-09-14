@@ -1,5 +1,6 @@
 ---
 title: 🔧 Useful links
+nav_exclude: true
 ---
 
 # Useful links and materials
