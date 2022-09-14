@@ -8,5 +8,6 @@ has_toc: false
 
 ### HSE MDI, Spring --- Autumn 2022.
 
-* [🚀 Statistics course program](/hse_prob_stat_22/program)
-* [🔧 Useful links](/hse_prob_stat_shared/links)
+* [Theory of Probability course program](/hse_prob_stat_22/pt_program)
+* [Statistics course program](/hse_prob_stat_22/stat_program)
+* [Useful links](/hse_prob_stat_shared/links)
