@@ -1,7 +1,6 @@
 ---
 title: Teaching
 permalink: /
-nav_order: 1
 ---
 
 # Currently active courses and past educational activity
