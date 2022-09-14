@@ -1,5 +1,6 @@
 ---
 title: 🐍 Numerical examples
+nav_exclude: true
 ---
 
 # Numerical examples

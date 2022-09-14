@@ -1,5 +1,6 @@
 ---
 title: 🚀 Statistics course program
+parent: prob_stat_21
 ---
 # Statistics course program
 

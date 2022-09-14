@@ -1,5 +1,6 @@
 ---
 title: Home assignments
+nav_exclude: true
 ---
 
 # Home assignment on Hypothesis Testing.

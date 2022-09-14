@@ -1,8 +1,9 @@
 ---
-title: Statistics '22 course program
+title: Course program
+parent: prob_stat_22
 ---
 
-# Statistics course program
+# Statistics '22 course program
 
 ## Seminar 1.
 
