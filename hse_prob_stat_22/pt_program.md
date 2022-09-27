@@ -1,6 +1,6 @@
 ---
 title: Probability Theory course program 🎰
-parent: Probability Theory and Statistics 2022
+parent: Probability Theory 2022
 ---
 # Probability Theory '22 course program
 
