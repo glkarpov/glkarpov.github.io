@@ -12,4 +12,6 @@ has_toc: false
 ![](/images/capoo_stars.png)
 
 * [Statistics course program](/hse_prob_stat_22/stat_program)
+
+![](/images/capoo_pc.png)
 * [External materials](/hse_prob_stat_shared/stat_links)
