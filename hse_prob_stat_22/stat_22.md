@@ -9,7 +9,7 @@ has_toc: false
 
 ### HSE MDI, September --- October 2022.
 
-![](/images/capoo_stars.png)
+![](/images/capoo_study.gif)
 
 * [Statistics course program](/hse_prob_stat_22/stat_program)
 
