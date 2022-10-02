@@ -13,5 +13,7 @@ has_toc: false
 
 * [Statistics course program](/hse_prob_stat_22/stat_program)
 
+* [Home Assignments](/hse_prob_stat_22/homework_22) 
+
 ![](/images/capoo_it.gif)
 * [External materials](/hse_prob_stat_shared/stat_links)
