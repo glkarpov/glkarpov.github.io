@@ -48,7 +48,9 @@ Confidence Intervals: estimation of population proportion, difference between po
 
 Confidence Intervals: estimation of population mean without population variance. Student's t-distribution.
 
-[Notes](./notes/seminar7_notes.pdf). [Notes from online seminar](./notes/seminar7_online_notes.pdf)
-[Theory we need for understanding chi-squared and t-distribution](/hse_prob_stat_shared/materials/chi_squared_t_theory.pdf)
-[Notebook with visualization of density functions](/hse_prob_stat_shared/notebooks/t_chi2_density.ipynb)
+* [Seminar materials](./materials/mdi_ms_seminar7.pdf). 
+* [Notes](./notes/seminar7_notes.pdf). 
+* [Notes from online seminar](./notes/seminar7_online_notes.pdf).
+* [Theory we need for understanding chi-squared and t-distribution](/hse_prob_stat_shared/materials/chi_squared_t_theory.pdf).
+* [Notebook with visualization of density functions](/hse_prob_stat_shared/notebooks/t_chi2_density.ipynb)
 
