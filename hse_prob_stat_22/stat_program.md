@@ -34,14 +34,14 @@ Sampling distribution. Point estimation. Unbiased estimators. Mean Squared Error
 
 Central Limit Theorem. Confidence Intervals. Estimation of population mean, given population variance.
 
-[Materials](./materials/stat_intro.pdf). [Notes](./notes/seminar5_notes.pdf).
+[Materials](./materials/mdi_ms_seminar5.pdf). [Notes](./notes/seminar5_notes.pdf).
 
 
 ## Seminar 6.
 
 Confidence Intervals: estimation of population proportion, difference between population means, difference between population proportions.
 
-[Notes](./notes/seminar6_notes.pdf).
+[Materials](./materials/mdi_ms_seminar6.pdf). [Notes](./notes/seminar6_notes.pdf).
 
 
 ## Seminar 7.
