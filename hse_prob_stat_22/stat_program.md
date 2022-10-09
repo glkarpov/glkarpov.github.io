@@ -52,5 +52,15 @@ Confidence Intervals: estimation of population mean without population variance.
 * [Notes](./notes/seminar7_notes.pdf). 
 * [Notes from online seminar](./notes/seminar7_online_notes.pdf).
 * [Theory we need for understanding chi-squared and t-distribution](/hse_prob_stat_shared/materials/chi_squared_t_theory.pdf).
-* [Notebook with visualization of density functions](/hse_prob_stat_shared/notebooks/t_chi2_density.ipynb)
+* [Notebook with visualisation of density functions](/hse_prob_stat_shared/notebooks/t_chi2_density.ipynb)
 
+### Confidence Intervals: Overview.
+* [Confidence Intervals cookbook](/hse_prob_stat_shared/materials/CI_cookbook.pdf) 🥘🍳🍷
+
+## Seminar 8.
+
+🚧 Construction in progress. 🚧
+
+## Seminar 9.
+
+🚧 Construction in progress. 🚧
