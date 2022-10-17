@@ -63,4 +63,9 @@ Confidence Intervals: estimation of population mean without population variance.
 
 ## Seminar 9.
 
-🚧 Construction in progress. 🚧
+Hypotheses Testing: test of population mean with known and unknown variance, test for population proportion. 
+
+[Materials](./materials/mdi_ms_seminar8.pdf). [List of problems](./materials/mdi_ms_ht_problems.pdf).
+
+### Hypotheses Testing: Overview.
+* [Hypothese Testing cookbook](/hse_prob_stat_shared/materials/HT_cookbook.pdf) 🍞🧈🍴
