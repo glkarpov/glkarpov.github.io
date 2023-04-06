@@ -7,3 +7,4 @@ parent: Probability Theory 2023
 ## Seminar 1.
 
 Introduction. Probability space.
+[Problem list](./materials/seminar_1.pdf)
