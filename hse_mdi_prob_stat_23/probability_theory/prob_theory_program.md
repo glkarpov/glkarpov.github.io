@@ -29,3 +29,5 @@ Counting principles: combinations. Conditional probability.
 ## Seminar 4.
 
 Conditional probability. Independence of events. Total probability and Bayes' theorem.
+
+[Problem list](./materials/HSE_MDI_PT_seminar_4.pdf).
