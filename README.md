@@ -7,6 +7,7 @@ nav_order: 0
 # Currently active courses
 
 * [HSE BI Probability and Mathematical Statistics 2025](/ptms_bi_hse_25)
+* [HSE FCS Linear Algebra 2025](/linalg_mds_25)
 
 # Past educational activity
 
