@@ -1,7 +1,70 @@
-title: "Teaching activity"
+title: "Gleb Karpov"
+description: "Personal website and portfolio"
 baseurl: ""
 url: "https://glebkarpov.com"
 search_enabled: false
+
+# Personal Information
+email: "your.email@example.com"
+github: "https://github.com/glkarpov"
+linkedin: ""
+twitter: ""
+
+# About section
+about: "Hi! Welcome to my personal website. I'm a researcher and educator interested in mathematics, statistics, and their applications."
+
+# Interests (for home page)
+interests:
+  - "Probability Theory"
+  - "Mathematical Statistics"
+  - "Machine Learning"
+  - "Data Science"
+
+# CV file (optional)
+cv_file: "/documents/cv.pdf"
+
+# Education
+education:
+  - degree: "Ph.D. in [Field]"
+    institution: "[University]"
+    period: "20XX - 20XX"
+    description: "Thesis: [Title]"
+  # Add more education entries as needed
+
+# Experience
+experience:
+  - position: "[Position]"
+    organization: "[Organization]"
+    period: "20XX - Present"
+    description: "[Description of your role and achievements]"
+  # Add more experience entries as needed
+
+# Projects (with details for accordion on CV page)
+projects:
+  - title: "Project Name"
+    description: "Brief description of the project"
+    details: |
+      ## Detailed Description
+      
+      This is a more detailed description that will appear when the accordion is expanded.
+      You can use **markdown** here!
+      
+      - Feature 1
+      - Feature 2
+      - Feature 3
+      
+      You can add as much detail as you want here.
+    url: "https://project-url.com"
+    github: "https://github.com/username/project"
+    tags: ["Python", "Machine Learning", "Research"]
+  # Add more projects as needed
+
+# Resources & Links
+resources:
+  - title: "Teaching Materials"
+    description: "Educational resources and course materials"
+    url: "https://teaching.example.com"
+  # Add more resources as needed
 
 # Enable or disable heading anchors
 heading_anchors: true

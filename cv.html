@@ -1,0 +1,159 @@
+---
+layout: default
+title: CV
+permalink: /cv/
+---
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% seo %}
+</head>
+<body>
+    <!-- Side Navigation Buttons -->
+    <nav class="side-nav">
+        <a href="/" class="side-nav-btn" title="Home">
+            <span class="side-nav-icon">🏠</span>
+            <span class="side-nav-text">Home</span>
+        </a>
+        <a href="https://teaching.glebkarpov.com" target="_blank" class="side-nav-btn" title="Teaching Materials">
+            <span class="side-nav-icon">📚</span>
+            <span class="side-nav-text">Teaching</span>
+        </a>
+    </nav>
+
+    <!-- CV Header -->
+    <section class="cv-hero">
+        <div class="container">
+            <h1>Curriculum Vitae</h1>
+            <p class="cv-subtitle">Gleb Karpov</p>
+            {% if site.cv_file %}
+            <a href="{{ site.cv_file }}" target="_blank" class="btn btn-primary">Download PDF</a>
+            {% endif %}
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    {% if site.education %}
+    <section class="cv-section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="cv-items">
+                {% for item in site.education %}
+                <div class="cv-item">
+                    <h3>{{ item.degree }}</h3>
+                    <p class="cv-meta">{{ item.institution }} | {{ item.period }}</p>
+                    {% if item.description %}
+                    <p>{{ item.description }}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    <!-- Experience Section -->
+    {% if site.experience %}
+    <section class="cv-section">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="cv-items">
+                {% for item in site.experience %}
+                <div class="cv-item">
+                    <h3>{{ item.position }}</h3>
+                    <p class="cv-meta">{{ item.organization }} | {{ item.period }}</p>
+                    {% if item.description %}
+                    <p>{{ item.description }}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    <!-- Projects Section with Accordion -->
+    {% if site.projects %}
+    <section class="cv-section">
+        <div class="container">
+            <h2>Projects & Research</h2>
+            <div class="accordion-container">
+                {% for project in site.projects %}
+                <div class="accordion-item">
+                    <button class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="accordion-title">{{ project.title }}</span>
+                        <span class="accordion-icon">▼</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            <p class="project-description">{{ project.description }}</p>
+                            
+                            {% if project.details %}
+                            <div class="project-details">
+                                {{ project.details | markdownify }}
+                            </div>
+                            {% endif %}
+                            
+                            {% if project.tags %}
+                            <div class="project-tags">
+                                {% for tag in project.tags %}
+                                <span class="tag">{{ tag }}</span>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+                            
+                            <div class="project-links">
+                                {% if project.url %}
+                                <a href="{{ project.url }}" target="_blank" class="project-link">🔗 View Project</a>
+                                {% endif %}
+                                {% if project.github %}
+                                <a href="{{ project.github }}" target="_blank" class="project-link">💻 GitHub</a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; {{ 'now' | date: "%Y" }} Gleb Karpov</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleAccordion(button) {
+            const item = button.parentElement;
+            const content = item.querySelector('.accordion-content');
+            const icon = button.querySelector('.accordion-icon');
+            
+            const isOpen = item.classList.contains('active');
+            
+            // Close all accordions
+            document.querySelectorAll('.accordion-item').forEach(accItem => {
+                accItem.classList.remove('active');
+                accItem.querySelector('.accordion-content').style.maxHeight = null;
+                accItem.querySelector('.accordion-icon').textContent = '▼';
+            });
+            
+            // Open clicked accordion if it wasn't open
+            if (!isOpen) {
+                item.classList.add('active');
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.textContent = '▲';
+            }
+        }
+    </script>
+</body>
+</html>
+
