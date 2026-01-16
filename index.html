@@ -27,7 +27,9 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1 class="hero-title">Gleb Karpov</h1>
+            {% if site.title %}
+            <h1 class="hero-title">{{ site.title }}</h1>
+            {% endif %}
             <p class="hero-subtitle">{{ site.description | default: "Researcher, Educator, Developer" }}</p>
         </div>
     </section>
