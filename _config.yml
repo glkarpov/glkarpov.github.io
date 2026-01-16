@@ -1,4 +1,4 @@
-# title: " "
+title: ""
 description: "Some yapping about teaching and stuff."
 baseurl: ""
 url: "https://glebkarpov.com"
@@ -87,14 +87,14 @@ kramdown:
     block:
       line_numbers: false
 
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: []
-  blanklines: false
-  profile: false
-  # ignore:
-  #   envs: all
+# compress_html:
+#   clippings: all
+#   comments: all
+#   endings: all
+#   startings: []
+#   blanklines: false
+#   profile: false
+#   # ignore:
+#   #   envs: all
 
 theme: jekyll-theme-cayman
