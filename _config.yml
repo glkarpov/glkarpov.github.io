@@ -1,5 +1,5 @@
 title: ""
-description: "Some yapping about teaching and stuff."
+description: "Some yapping about personal experience, teaching and stuff."
 baseurl: ""
 url: "https://glebkarpov.com"
 search_enabled: false
@@ -86,15 +86,5 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: false
-
-# compress_html:
-#   clippings: all
-#   comments: all
-#   endings: all
-#   startings: []
-#   blanklines: false
-#   profile: false
-#   # ignore:
-#   #   envs: all
 
 theme: jekyll-theme-cayman
