@@ -1,5 +1,5 @@
 title: ""
-description: "Some yapping about personal experience, teaching and stuff."
+description: "Some yapping about personal experience, teaching, <s>occasionally memes</s> and stuff."
 baseurl: ""
 url: "https://glebkarpov.com"
 search_enabled: false
@@ -12,12 +12,12 @@ linkedin: ""
 # About section
 about: " "
 
-# Interests (for home page)
+# Interests
 interests:
-  - "Numerical Linear Algebra"
-  - "Fast matrix computations"
-  - "Mathematical Statistics"
+  - "Fast matrix computations: methods and low-level code"
   - "Tensor methods for Machine Learning"
+  - "ML for Signal Processing and Communications"
+  - "Applied Statistics"
 
 # CV file (optional)
 cv_file: "/documents/cv.pdf"

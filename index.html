@@ -30,7 +30,7 @@
             {% if site.title %}
             <h1 class="hero-title">{{ site.title }}</h1>
             {% endif %}
-            <p class="hero-subtitle">{{ site.description | default: "Researcher, Educator, Developer" }}</p>
+            <p class="hero-subtitle">{{ site.description | default: "Researcher, Educator, Developer" | markdownify }}</p>
         </div>
     </section>
 
