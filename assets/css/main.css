@@ -533,6 +533,133 @@ h4 {
     margin-bottom: 0.5rem;
 }
 
+/* Timeline Styles */
+.timeline-container {
+    max-width: 900px;
+    margin: 3rem auto;
+    position: relative;
+    padding: 2rem 0;
+}
+
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.timeline-item:nth-child(odd) {
+    flex-direction: row;
+}
+
+.timeline-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.timeline-content {
+    width: 45%;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+    margin-right: auto;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+    margin-left: auto;
+}
+
+.timeline-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.timeline-period {
+    font-size: 0.875rem;
+    color: var(--text-light);
+    font-weight: 500;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 16px;
+    height: 16px;
+    background: var(--primary-color);
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px var(--primary-color), var(--shadow);
+    z-index: 10;
+}
+
+.timeline-line {
+    position: absolute;
+    top: 50%;
+    width: 8%;
+    height: 2px;
+    background: var(--primary-color);
+    z-index: 5;
+}
+
+.timeline-item:nth-child(odd) .timeline-line {
+    right: 45%;
+    left: auto;
+}
+
+.timeline-item:nth-child(even) .timeline-line {
+    left: 45%;
+    right: auto;
+}
+
+/* Responsive Timeline */
+@media (max-width: 768px) {
+    .timeline-container::before {
+        left: 1.5rem;
+    }
+
+    .timeline-item {
+        flex-direction: row !important;
+        padding-left: 3rem;
+    }
+
+    .timeline-content {
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .timeline-dot {
+        left: 1.5rem;
+        transform: translateX(-50%);
+    }
+
+    .timeline-line {
+        display: none;
+    }
+}
+
 /* Animations */
 @keyframes fadeInUp {
     from {

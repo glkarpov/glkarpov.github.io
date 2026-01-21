@@ -24,11 +24,18 @@ cv_file: "/documents/cv.pdf"
 
 # Education
 education:
-  - degree: "Ph.D. in [Field]"
-    institution: "[University]"
-    period: "20XX - 20XX"
-    description: "Thesis: [Title]"
-  # Add more education entries as needed
+  - degree: "Master's Degree in Applied Mathematics and Physics"
+    institution: "Moscow Institute of Physics and Technology (MIPT)"
+    period: "2015 - 2017"
+    description: "Faculty of Radio Engineering and Cybernetics, Base Department - Institute for Information Transmission Problems of the Russian Academy of Sciences"
+  - degree: "Master's Degree in Mathematics and Computer Science"
+    institution: "Skolkovo Institute of Science and Technology (Skoltech)"
+    period: "2016 - 2018"
+    description: ""
+  - degree: "Bachelor's Degree in Applied Mathematics and Physics"
+    institution: "Moscow Institute of Physics and Technology (MIPT)"
+    period: "2011 - 2015"
+    description: ""
 
 # Experience
 experience:
@@ -40,23 +47,48 @@ experience:
 
 # Projects (with details for accordion on CV page)
 projects:
-  - title: "Project Name"
-    description: "Brief description of the project"
+  - title: "Digital Signal Correction for Communication Stations"
+    description: "Engineering-research project on correction of digital signals received by communication stations"
+    period: "2024 - Present"
     details: |
-      ## Detailed Description
+      ## Project Overview
       
-      This is a more detailed description that will appear when the accordion is expanded.
-      You can use **markdown** here!
+      Special types of interference arriving at the antenna complicate the reception and decoding of useful subscriber signals. The goal of the project is to develop a machine learning model that effectively predicts interference and has a small number of parameters for online deployment at the base station.
       
-      - Feature 1
-      - Feature 2
-      - Feature 3
+      ## Responsibilities
       
-      You can add as much detail as you want here.
-    url: "https://project-url.com"
-    github: "https://github.com/username/project"
-    tags: ["Python", "Machine Learning", "Research"]
-  # Add more projects as needed
+      Research of classical physical and machine learning-based models for interference prediction, efficient implementation of mathematical algorithms in high-level languages, and investigation of computational complexity of different approaches.
+    url: ""
+    github: ""
+    tags: ["Machine Learning", "Signal Processing", "Communications", "Research"]
+  - title: "Software for Training Large Neural Networks on Heterogeneous Computing Systems"
+    description: "Engineering-research project on creating new software for training large neural networks on heterogeneous computing systems"
+    period: "2022 - Present"
+    details: |
+      ## Project Overview
+      
+      Development of new software platform for training large neural networks on heterogeneous computing systems.
+      
+      ## Responsibilities
+      
+      Conducting experiments on computational efficiency of the new approach, writing mathematical code in languages of different levels, and creating machine learning models on the new platform.
+    url: ""
+    github: ""
+    tags: ["Deep Learning", "High Performance Computing", "Software Development", "Research"]
+  - title: "Performance Research of Sparse Linear System Solver"
+    description: "Engineering-research project on investigating the performance of a sparse linear system solver in a commercial optimization package"
+    period: "2020 - 2022"
+    details: |
+      ## Project Overview
+      
+      Research project focused on investigating the performance of a sparse linear system solver as part of a commercial optimization package.
+      
+      ## Responsibilities
+      
+      Development of experimental framework, analysis of mathematical components, and independent implementation of fragments of new algorithms in C++.
+    url: ""
+    github: ""
+    tags: ["Numerical Methods", "C++", "Optimization", "Research"]
 
 # Resources & Links
 resources:

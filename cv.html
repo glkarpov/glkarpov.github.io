@@ -82,6 +82,23 @@ permalink: /cv/
     <section class="cv-section">
         <div class="container">
             <h2>Projects & Research</h2>
+
+            <!-- Timeline -->
+            <div class="timeline-container">
+                {% for project in site.projects %}
+                {% if project.period %}
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-title">{{ project.title }}</div>
+                        <div class="timeline-period">{{ project.period }}</div>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-line"></div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+
             <div class="accordion-container">
                 {% for project in site.projects %}
                 <div class="accordion-item">
