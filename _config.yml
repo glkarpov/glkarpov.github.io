@@ -39,53 +39,79 @@ education:
 
 # Experience
 experience:
-  - position: "[Position]"
-    organization: "[Organization]"
-    period: "20XX - Present"
-    description: "[Description of your role and achievements]"
-  # Add more experience entries as needed
+  - position: "Research Engineer"
+    organization: "Skolkovo Institute of Science and Technology (Skoltech)"
+    period: "2019 - Present"
+    description: |
+  - position: "Visiting Researcher"
+    organization: "Fraunhofer ITWM, Germany"
+    period: "October - November 2019"
+    description: |
+      Research on methods and development of algorithms for finding D-optimal experimental designs. Application to real-world data from chemical engineering as part of an international collaboration.
+  - position: "Visiting Lecturer"
+    organization: "Faculty of Computer Science, HSE University"
+    period: "September 2024 - Present"
+    description: |
+      Teaching lectures and seminars for "Probability Theory and Mathematical Statistics" and "Linear Algebra" courses in the Master's program "Master in Data Science" in Russian and English.
+  - position: "Visiting Lecturer"
+    organization: "Graduate School of Business, HSE University"
+    period: "April 2021 - Present"
+    description: |
+      Teaching lectures and seminars for "Probability Theory and Mathematical Statistics" course across various educational programs at the Graduate School of Business, HSE University both in Russian and English.
+  - position: "Lecturer"
+    organization: "OTUS Online School"
+    period: "July 2021 - Present"
+    description: |
+      Teaching lectures on selected topics from linear algebra, optimization, and statistics that find applications in data science and machine learning.
 
 # Projects (with details for accordion on CV page)
 projects:
-  - title: "Digital Signal Correction for Communication Stations"
-    description: "Engineering-research project on correction of digital signals received by communication stations"
+  - title: "Digital Signal Correction for Wireless Communication Stations"
+    description: |
+      Some type of interference signals (PIM, Passive InterModulation) arriving at the receiver band frequencies complicate the decoding of useful subscriber signals.
+      The goal of the project is to develop a machine learning model that effectively predicts interference component and has a small number of parameters for online deployment at the base station.
+        
+      Personal contribution at different stages includes research of classical physical and machine learning-based models for interference prediction,
+      efficient implementation of mathematical algorithms in high-level languages, and investigation of computational complexity of different approaches.
     period: "2024 - Present"
-    details: |
-      ## Project Overview
-      
-      Special types of interference arriving at the antenna complicate the reception and decoding of useful subscriber signals. The goal of the project is to develop a machine learning model that effectively predicts interference and has a small number of parameters for online deployment at the base station.
-      
-      ## Responsibilities
-      
-      Research of classical physical and machine learning-based models for interference prediction, efficient implementation of mathematical algorithms in high-level languages, and investigation of computational complexity of different approaches.
+    details: ""
     url: ""
     github: ""
     tags: ["Machine Learning", "Signal Processing", "Communications", "Research"]
-  - title: "Software for Training Large Neural Networks on Heterogeneous Computing Systems"
-    description: "Engineering-research project on creating new software for training large neural networks on heterogeneous computing systems"
-    period: "2022 - Present"
+  - title: "NNTile: Software for Training Large Neural Networks on Heterogeneous Computing Nodes"
+    description: |
+      The project is a nice example of ideas emerging from bringing two science disciplines together.
+
+      On one hand, there is StarPU, a specialized library that helps computer programs run much faster by automatically splitting work between different computing nodes, like the CPU and the GPU.
+      It takes care of the "traffic control" by using its own scheduler and thus deciding where data needs to go and which processor is best for each specific task.
+      This library is most popular in High-Performance Computing and Numerical Linear Algebra communities, where it is used to run massive simulations, complex math problems on the most powerful supercomputers.
+      On the other hand, there is ML applications and growing problems with the cost and availability of the most high-end GPUs. The idea was to bring these two worlds together 
+      and try to make relatively old computing clusters still relevant for the current ML demands by wise scheduling across heterogeneous computing nodes with the help of StarPU.
+
+      Personal contribution at different stages includes writing mathematical code in Python, C++ and CUDA, conducting experiments on computational efficiency,
+      and creating machine learning models on the new framework.
+    period: "2023 - Present"
     details: |
-      ## Project Overview
-      
-      Development of new software platform for training large neural networks on heterogeneous computing systems.
-      
-      ## Responsibilities
-      
-      Conducting experiments on computational efficiency of the new approach, writing mathematical code in languages of different levels, and creating machine learning models on the new platform.
+      ### Project support and recognition
+
+      In the April, 2024 our project was selected by The Foundation for Assistance to Small Innovative Enterprises (https://fasie.ru/) for 2-year financial support.
     url: ""
-    github: ""
+    github: "https://github.com/nntile/nntile"
     tags: ["Deep Learning", "High Performance Computing", "Software Development", "Research"]
   - title: "Performance Research of Sparse Linear System Solver"
-    description: "Engineering-research project on investigating the performance of a sparse linear system solver in a commercial optimization package"
+    description: |
+      This was a significant early-career commercial project with a major company developing an optimization package.
+      The challenge was that their Simplex method implementation performed slower than competitors, but we had no access to the source code.
+
+      To address this, we were to develop a black-box framework that intercepted inputs and outputs of the target library,
+      enabling us to analyze performance bottlenecks and formulate hypotheses about the underlying implementation.
+      Based on this analysis, we proposed algorithmic improvements and independently implemented an optimized version of the solver in C++,
+      which met the required performance specifications.
+
+      This project significantly enhanced my skills in linear algebra tools, multi-level and especially low-level programming,
+      while improving my overall code quality and programming style.
     period: "2020 - 2022"
-    details: |
-      ## Project Overview
-      
-      Research project focused on investigating the performance of a sparse linear system solver as part of a commercial optimization package.
-      
-      ## Responsibilities
-      
-      Development of experimental framework, analysis of mathematical components, and independent implementation of fragments of new algorithms in C++.
+    details: ""
     url: ""
     github: ""
     tags: ["Numerical Methods", "C++", "Optimization", "Research"]
