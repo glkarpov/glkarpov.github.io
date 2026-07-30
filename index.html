@@ -1,75 +1,48 @@
 ---
-# Minimal Jekyll front matter for GitHub Pages
 ---
-
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    {% seo %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title | default: "Gleb Karpov" }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% seo %}
 </head>
 <body>
-    <!-- Side Navigation Buttons -->
-    <nav class="side-nav">
-        <a href="https://teaching.glebkarpov.com" target="_blank" class="side-nav-btn" title="Teaching Materials">
-            <span class="side-nav-icon">📚</span>
-            <span class="side-nav-text">Teaching</span>
-        </a>
-        <a href="/cv" class="side-nav-btn" title="Curriculum Vitae">
-            <span class="side-nav-icon">📄</span>
-            <span class="side-nav-text">CV</span>
-        </a>
-    </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            {% if site.title %}
-            <h1 class="hero-title">{{ site.title }}</h1>
-            {% endif %}
-            <p class="hero-subtitle">{{ site.description | default: "Researcher, Educator, Developer" | markdownify }}</p>
-        </div>
+  <header class="hero">
+    <p class="hero-text">{{ site.description }}</p>
+  </header>
+
+  {% include site_nav.html %}
+
+  <main class="container">
+
+    {# About — fill site.about in _config.yml #}
+    <section id="about">
+      <h2>About</h2>
+      <p>{{ site.about }}</p>
     </section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="about-content">
-                <p>{{ site.about | default: "Hi! Welcome to my personal website. I'm a researcher and educator interested in mathematics, statistics, and their applications." }}</p>
-                
-                {% if site.interests %}
-                <div class="interests">
-                    <h3>Interests</h3>
-                    <ul class="interests-list">
-                        {% for interest in site.interests %}
-                        <li>{{ interest }}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                {% endif %}
+    {% if site.interests %}
+    <section id="interests">
+      <h2>Interests</h2>
+      <ul>
+        {% for interest in site.interests %}
+        <li>{{ interest }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
 
-                <div class="contact-links">
-                    {% if site.email %}
-                    <a href="mailto:{{ site.email }}" class="contact-link">✉️ Email</a>
-                    {% endif %}
-                    {% if site.github %}
-                    <a href="{{ site.github }}" target="_blank" class="contact-link">💻 GitHub</a>
-                    {% endif %}
-                    {% if site.linkedin %}
-                    <a href="{{ site.linkedin }}" target="_blank" class="contact-link">💼 LinkedIn</a>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
+    <section id="contact" class="contact">
+      {% if site.email %}<a href="mailto:{{ site.email }}">Email</a>{% endif %}
+      {% if site.github %}<a href="{{ site.github }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+      {% if site.linkedin %}<a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-        </div>
-    </footer>
+  </main>
+
 </body>
 </html>

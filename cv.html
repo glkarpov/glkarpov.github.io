@@ -1,175 +1,83 @@
 ---
-layout: default
-title: CV
 permalink: /cv/
 ---
-
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    {% seo %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV — {{ site.title | default: "Gleb Karpov" }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% seo %}
 </head>
 <body>
-    <!-- Side Navigation Buttons -->
-    <nav class="side-nav">
-        <a href="/" class="side-nav-btn" title="Home">
-            <span class="side-nav-icon">🏠</span>
-            <span class="side-nav-text">Home</span>
-        </a>
-        <a href="https://teaching.glebkarpov.com" target="_blank" class="side-nav-btn" title="Teaching Materials">
-            <span class="side-nav-icon">📚</span>
-            <span class="side-nav-text">Teaching</span>
-        </a>
-    </nav>
 
-    <!-- CV Header -->
-    <section class="cv-hero">
-        <div class="container">
-            <h1>Curriculum Vitae</h1>
-            <p class="cv-subtitle">Gleb Karpov</p>
-            {% if site.cv_file %}
-            <a href="{{ site.cv_file }}" target="_blank" class="btn btn-primary">Download PDF</a>
-            {% endif %}
-        </div>
-    </section>
+  <header class="hero">
+    <h1>Curriculum Vitae</h1>
+    <p class="hero-text">Gleb Karpov</p>
+    {% if site.cv_file %}
+    <p><a class="btn" href="{{ site.cv_file }}" target="_blank" rel="noopener">Download PDF</a></p>
+    {% endif %}
+  </header>
 
-    <!-- Education Section -->
+  {% include site_nav.html %}
+
+  <main class="container">
+
     {% if site.education %}
-    <section class="cv-section">
-        <div class="container">
-            <h2>Education</h2>
-            <div class="cv-items">
-                {% for item in site.education %}
-                <div class="cv-item">
-                    <h3>{{ item.degree }}</h3>
-                    <p class="cv-meta">{{ item.institution }} | {{ item.period }}</p>
-                    {% if item.description %}
-                    <p>{{ item.description }}</p>
-                    {% endif %}
-                </div>
-                {% endfor %}
-            </div>
-        </div>
+    <section>
+      <h2>Education</h2>
+      {% for item in site.education %}
+      <article class="item">
+        <h3>{{ item.degree }}</h3>
+        <p class="meta">{{ item.institution }} · {{ item.period }}</p>
+        {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+      </article>
+      {% endfor %}
     </section>
     {% endif %}
 
-    <!-- Experience Section -->
     {% if site.experience %}
-    <section class="cv-section">
-        <div class="container">
-            <h2>Experience</h2>
-            <div class="cv-items">
-                {% for item in site.experience %}
-                <div class="cv-item">
-                    <h3>{{ item.position }}</h3>
-                    <p class="cv-meta">{{ item.organization }} | {{ item.period }}</p>
-                    {% if item.description %}
-                    <p>{{ item.description }}</p>
-                    {% endif %}
-                </div>
-                {% endfor %}
-            </div>
-        </div>
+    <section>
+      <h2>Experience</h2>
+      {% for item in site.experience %}
+      <article class="item">
+        <h3>{{ item.position }}</h3>
+        <p class="meta">{{ item.organization }} · {{ item.period }}</p>
+        {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+      </article>
+      {% endfor %}
     </section>
     {% endif %}
 
-    <!-- Projects Section with Accordion -->
     {% if site.projects %}
-    <section class="cv-section">
-        <div class="container">
-            <h2>Projects & Research</h2>
-
-            <!-- Timeline -->
-            <div class="timeline-container">
-                {% for project in site.projects %}
-                {% if project.period %}
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="timeline-title">{{ project.title }}</div>
-                        <div class="timeline-period">{{ project.period }}</div>
-                    </div>
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-line"></div>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-
-            <div class="accordion-container">
-                {% for project in site.projects %}
-                <div class="accordion-item">
-                    <button class="accordion-header" onclick="toggleAccordion(this)">
-                        <span class="accordion-title">{{ project.title }}</span>
-                        <span class="accordion-icon">▼</span>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            <p class="project-description">{{ project.description }}</p>
-                            
-                            {% if project.details %}
-                            <div class="project-details">
-                                {{ project.details | markdownify }}
-                            </div>
-                            {% endif %}
-                            
-                            {% if project.tags %}
-                            <div class="project-tags">
-                                {% for tag in project.tags %}
-                                <span class="tag">{{ tag }}</span>
-                                {% endfor %}
-                            </div>
-                            {% endif %}
-                            
-                            <div class="project-links">
-                                {% if project.url %}
-                                <a href="{{ project.url }}" target="_blank" class="project-link">🔗 View Project</a>
-                                {% endif %}
-                                {% if project.github %}
-                                <a href="{{ project.github }}" target="_blank" class="project-link">💻 GitHub</a>
-                                {% endif %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
+    <section>
+      <h2>Projects &amp; Research</h2>
+      {% for project in site.projects %}
+      <details class="item">
+        <summary>
+          <strong>{{ project.title }}</strong>
+          {% if project.period %}<span class="meta">{{ project.period }}</span>{% endif %}
+        </summary>
+        <p>{{ project.description }}</p>
+        {% if project.details %}
+        <div class="details">{{ project.details | markdownify }}</div>
+        {% endif %}
+        {% if project.tags %}
+        <p class="tags">
+          {% for tag in project.tags %}<span>{{ tag }}</span>{% endfor %}
+        </p>
+        {% endif %}
+        <p class="links">
+          {% if project.url %}<a href="{{ project.url }}" target="_blank" rel="noopener">Project</a>{% endif %}
+          {% if project.github %}<a href="{{ project.github }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+        </p>
+      </details>
+      {% endfor %}
     </section>
     {% endif %}
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-        </div>
-    </footer>
+  </main>
 
-    <script>
-        function toggleAccordion(button) {
-            const item = button.parentElement;
-            const content = item.querySelector('.accordion-content');
-            const icon = button.querySelector('.accordion-icon');
-            
-            const isOpen = item.classList.contains('active');
-            
-            // Close all accordions
-            document.querySelectorAll('.accordion-item').forEach(accItem => {
-                accItem.classList.remove('active');
-                accItem.querySelector('.accordion-content').style.maxHeight = null;
-                accItem.querySelector('.accordion-icon').textContent = '▼';
-            });
-            
-            // Open clicked accordion if it wasn't open
-            if (!isOpen) {
-                item.classList.add('active');
-                content.style.maxHeight = content.scrollHeight + "px";
-                icon.textContent = '▲';
-            }
-        }
-    </script>
 </body>
 </html>
-

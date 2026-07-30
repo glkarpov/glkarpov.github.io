@@ -1,4 +1,4 @@
-title: ""
+title: "Gleb Karpov"
 description: "Some yapping about personal experience, teaching, <s>occasionally memes</s> and stuff."
 baseurl: ""
 url: "https://glebkarpov.com"
@@ -9,8 +9,8 @@ email: "gleborg.mipt@gmail.com"
 github: "https://github.com/glkarpov"
 linkedin: ""
 
-# About section
-about: " "
+# About section (home page, before Interests)
+about: ""
 
 # Interests
 interests:
