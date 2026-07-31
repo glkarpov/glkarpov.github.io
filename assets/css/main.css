@@ -62,34 +62,39 @@ a { color: var(--accent); }
 /* ——— nav under hero ——— */
 .nav {
   display: flex;
-  gap: 0.5rem;
-  padding: 0.75rem 1rem;
-  background: var(--bg-soft);
-  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  padding: 0.85rem 1rem 1rem;
+  background: linear-gradient(135deg, var(--hero-from), var(--hero-to));
 }
 
 .nav a {
-  flex: 1;
+  flex: 1 1 0;
+  min-width: 7rem;
   display: block;
-  padding: 1rem 1.25rem;
+  padding: 0.95rem 1.25rem;
   text-align: center;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 600;
-  color: var(--text);
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: 0.4rem;
+  letter-spacing: 0.02em;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.18);
+  border: 2px solid rgba(255, 255, 255, 0.55);
+  border-radius: 0.45rem;
+  transition: background 0.2s ease, transform 0.15s ease;
 }
 
 .nav a:hover {
-  background: linear-gradient(135deg, var(--hero-from), var(--hero-to));
-  color: #fff;
-  border-color: transparent;
+  background: #fff;
+  color: var(--hero-to);
+  transform: translateY(-1px);
 }
 
 /* ——— sections ——— */
 section { padding: 2rem 0 0; }
+
+section p { margin-bottom: 1rem; }
 
 h2 {
   font-size: 1.35rem;
@@ -182,5 +187,6 @@ details.item summary + * { margin-top: 0.75rem; }
 /* ——— mobile ——— */
 @media (max-width: 560px) {
   .nav { flex-direction: column; }
+  .nav a { min-width: 0; }
   .hero-text { font-size: 0.95rem; }
 }
