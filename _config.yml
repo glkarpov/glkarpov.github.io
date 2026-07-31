@@ -10,7 +10,7 @@ github: "https://github.com/glkarpov"
 linkedin: ""
 
 # About section (home page, before Interests)
-about:
+about: |
   Hello, dear visitor!
 
   My name is Gleb Karpov and I am a researcher and teacher in the field of applied mathematics.
@@ -22,7 +22,7 @@ about:
   In parallel, since 2021 I have been teaching at HSE University. Now I give lectures on
   probability & statistics and linear algebra in flagship programs at the Graduate School of Business
   and in a Master's program at the Faculty of Computer Science, both in russian and english.
-  
+
   Teaching has been with me since
   my first year of university: for many years I taught at a summer school for high-school students.
   Along the way I realized I can build clear
