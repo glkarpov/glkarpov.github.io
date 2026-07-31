@@ -22,6 +22,9 @@
     <!-- About: fill site.about in _config.yml -->
     <section id="about">
       <h2>About</h2>
+      <p class="gif-center">
+        <img src="{{ '/assets/images/capoo_aiia.gif' | relative_url }}" alt="Capoo waving" width="180">
+      </p>
       {{ site.about | markdownify }}
     </section>
 
@@ -33,6 +36,9 @@
         <li>{{ interest }}</li>
         {% endfor %}
       </ul>
+      <p class="gif-center">
+        <img src="{{ '/assets/images/capoo_heart.gif' | relative_url }}" alt="Capoo heart" width="160">
+      </p>
     </section>
     {% endif %}
 
