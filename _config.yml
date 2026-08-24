@@ -13,7 +13,7 @@ linkedin: ""
 about: |
   Hello, dear visitor!
 
-  My name is Gleb Karpov and I am a researcher and teacher in the field of applied mathematics.
+  My name is Gleb Karpov and I am a researcher in the field of applied mathematics, and university lecturer in related fields.
   In short: applied mathematics — how to make numbers run efficiently on a computer.
   In more detail: I have worked on numerical linear algebra, fast matrix factorizations,
   uncertainty quantification, and surrogate modeling of computationally expensive models. Nowadays I focus on machine learning
@@ -27,16 +27,16 @@ about: |
   my first year of university: for many years I taught at a summer school for high-school students.
   Along the way I realized I can build clear
   emotionally engaging stories without the dry, passion-free style
-  of the post-Soviet lecturers I once sat through. I try to give lectures with energy — as if I were
+  of the post-Soviet lecturers I once listened to. I try to give lectures with energy — as if I were
   on a theatrical stage — so a lecture is not a lullaby, but something that sparks emotion and curiosity.
   I especially enjoy lecturing in English.
 
-  I do not want teaching to be my main job. Otherwise it is too easy to become the geography
+  But having said all that, I do not want teaching to be my main activity. It feels like becoming the geography
   teacher who has never left their village.
   I am moving toward teaching as an art, as a craft, as a creative outlet,
   and simply as a way to do something good for the living world.
 
-  In my free time I enjoy a moderate dose of adrenaline: snowboarding in winter, and road cycling in summer.
+  In my free time I enjoy tons of music and singing, and a moderate-adrenaline outdoor activities: snowboarding in winter, and road cycling in summer.
 
   I am endlessly fascinated by the world — and by how abstract ideas that live in our minds
   take shape and actually work in reality. I take great pleasure in the history of science and
@@ -92,7 +92,7 @@ experience:
       Teaching lectures and seminars for "Probability Theory and Mathematical Statistics" course across various educational programs at the Graduate School of Business, HSE University both in Russian and English.
   - position: "Lecturer"
     organization: "OTUS Online School"
-    period: "July 2021 - Present"
+    period: "July 2021 - July 2026"
     description: |
       Teaching lectures on selected topics from linear algebra, optimization, and statistics that find applications in data science and machine learning.
 
