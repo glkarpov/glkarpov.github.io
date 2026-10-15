@@ -96,6 +96,17 @@ section { padding: 2rem 0 0; }
 
 section p { margin-bottom: 1rem; }
 
+.gif-center {
+  text-align: center;
+  margin: 1rem 0 1.5rem;
+}
+
+.gif-center img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
 h2 {
   font-size: 1.35rem;
   margin-bottom: 1rem;
